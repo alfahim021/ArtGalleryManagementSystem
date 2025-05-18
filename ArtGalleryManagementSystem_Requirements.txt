@@ -1,0 +1,40 @@
+Art Gallery Management System — Requirements Document
+
+1. Introduction  
+The system manages all data related to an art gallery, including owners, managers, employees, artworks, artists, exhibitions, auctions, visitors, tickets, sellers, and guides. It supports efficient data storage, retrieval, and management for smooth gallery operations.
+
+2. Functional Requirements
+
+- Owner: Store owner ID, name, and address (city and country).  
+- Manager: Store manager ID, name, address, and phone number; link to multiple employees.  
+- Employee: Store employee ID, name, address, job type; each linked to one manager.  
+- Art Gallery: Store gallery ID, name, location.  
+- Exhibition: Store room number, exhibition type, and watch time.  
+- Artwork: Store art number, price, genre, category; associate with artist.  
+- Artist: Store artist ID, name, number of paintings.  
+- Auction: Store auction ID, date, and time; associate auctioneer details (ID, name, email).  
+- Visitor: Store pass ID, name, phone number.  
+- Ticket: Store ticket ID, price, date; link to seller details (ID, name, phone).  
+- Guide: Store guide ID, name, section, email; guide visitors.
+
+3. Non-Functional Requirements
+
+- Normalize database to avoid redundancy and maintain data integrity.  
+- Support concurrent multi-user access.  
+- Ensure data security and privacy of personal information.  
+- Provide reliable backup and recovery options.  
+- User-friendly interface for gallery staff (if implemented).  
+
+4. Technical Requirements
+
+- Use an RDBMS like Oracle SQL for data storage.  
+- Use sequences or auto-increment IDs for unique key generation.  
+- Support basic SQL operations: CREATE, INSERT, SELECT, UPDATE, DELETE.  
+- Ability to generate reports and queries for management purposes.  
+
+5. Assumptions and Constraints
+
+- Unique IDs are automatically generated where needed.  
+- Gallery locations limited to city and country fields.  
+- Only authorized users will access the system.  
+- Ticket sales are tracked with seller information.
