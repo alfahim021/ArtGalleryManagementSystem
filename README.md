@@ -56,12 +56,8 @@ This project is a **Database Management System** designed for an art gallery. It
 
 ---
 
-## Author
-AL Fahim 
+ License This project is for educational use only.
 
-
----
-
-## License
+👤 Author: AL Fahim 🏫 University: American International University of Bangladesh 🗓️ Project Date: May 2023
 [Specify your license here, e.g., MIT License]
 
