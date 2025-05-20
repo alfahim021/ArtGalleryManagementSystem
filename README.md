@@ -27,14 +27,13 @@ This project is a **Database Management System** designed for an art gallery. It
 - `create_tables.sql` — SQL scripts to create tables and sequences.
 - `insert_data.sql` — SQL scripts to insert sample data.
 - `queries.sql` — Sample queries and views.
-- `diagrams/ER_Diagram.png` — Entity Relationship Diagram (add your diagram here).
+- `diagrams/ER_Diagram.png` — Entity Relationship Diagram.
 - `Requirements.txt` — Project requirements document.
-- `Database Project.docx` — Full project documentation (optional).
 
 ---
 
 ## Technologies Used
-- Oracle SQL (or any compatible RDBMS)
+- Oracle SQL 
 - SQL for database schema and data manipulation
 
 ---
